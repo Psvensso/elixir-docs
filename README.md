@@ -5,11 +5,15 @@
 * Run command (or add keymap to) 'elixir-docs:finddoc'
 
 
+
 ### ToDo
 * Need to add support for project files, currently only finds Elixir base libs
 * Add support for more "select" options, like in the autocomplete plugin etc.
 * Smarter namespace selection from "carret" etc.
 * Run more commands
+* Make sure it runs on Mac -x (totally not tested)
+* Error handling (errors are shown in the panel right now)
+
 
 Outputs the markdown styled docs on the docs panel  
 
