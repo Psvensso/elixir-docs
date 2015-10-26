@@ -11,4 +11,4 @@ Keymaps
 'atom-workspace':
   'ctrl-alt-o': 'elixir-docs:toggle'
 
-![A screenshot of your package](http://tinypic.com/r/2qsckew/8)
+![A screenshot of your package](http://s16.postimg.org/4c14p7d8l/Capture.png)
