@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle elixir-docs'
+      'command': 'elixir-docs:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'elixir-docs'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'elixir-docs:toggle'
+        }
+      ]
+    ]
+  }
+]
