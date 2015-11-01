@@ -10,10 +10,10 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'elixir-docs'
+      'label': 'Elixir docs'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'Toggle sidebar'
           'command': 'elixir-docs:toggle'
         }
       ]

@@ -4,9 +4,7 @@
   "version": "0.1.0",
   "description": "Elixir Lang documentation panel",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "elixir-docs:toggle"
-  },
+  
   "repository": "https://github.com/atom/elixir-docs",
   "license": "MIT",
   "engines": {
