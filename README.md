@@ -1,28 +1,24 @@
 # elixir-docs package
-* Highlight a namespace
-* Open docs panel 'elixir-docs:toggle'
-* Hightlight you namespace you want the docs for
-* Run command (or add keymap to) 'elixir-docs:finddoc'
+Finds source code docs for a namespaces and outputs the parsed markdown documentation in a tool panel.
 
+1. Highlight a namespace
+2. Hightlight you namespace you want the docs for
+3. Run command (or add keymap to) 'elixir-docs:finddoc'
 
-
-#### ToDo
-* Need to add support for project files, currently only finds Elixir base libs
-* Add support for more "select" options, like in the autocomplete plugin etc.
-* Smarter namespace selection from "carret" etc.
-* Run more commands
-* Make sure it runs on Mac -x (totally not tested)
-* Error handling (errors are shown in the panel right now)
-
-
-Outputs the markdown styled docs on the docs panel  
-
+![Screenshot1](https://gyazo.com/fd996b70a340522b07f3c267a2ba4c8d.png)
 Keymaps
 ```javascript
 'atom-workspace':
   'ctrl-alt-o': 'elixir-docs:toggle'
+  'ctrl-alt-i': 'elixir-docs:finddoc'
 ```
 
-
-![Screenshot1](http://s16.postimg.org/4c14p7d8l/Capture.png)
-![Screenshot2](http://s15.postimg.org/veaq97b9n/Capture.png)
+#### Known issues
+* Does not resolve binding. E.g. you cant select a bound
+  value and ask for docs. It needs the entire namespace.
+* Recompilation
+    - The project needs to recompile to show latest docs
+      this is not taken care of by this plugin.
+* on todo list: Smarter namespace selection from "carret" etc.
+* on todo list: Make sure it runs on Mac -x (totally not tested)
+  - Probably needs absolute path resolving to elixir iex commands
