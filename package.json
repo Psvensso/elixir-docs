@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "description": "Elixir Lang documentation panel",
   "keywords": [],
-  
-  "repository": "https://github.com/atom/elixir-docs",
+
+  "repository": "https://github.com/Psvensso/elixir-docs",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
