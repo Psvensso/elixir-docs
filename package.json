@@ -1,7 +1,7 @@
 {
   "name": "elixir-docs",
   "main": "./lib/elixir-docs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Elixir Lang documentation panel",
   "keywords": [],
   "repository": "https://github.com/Psvensso/elixir-docs",
