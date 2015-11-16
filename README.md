@@ -14,6 +14,18 @@ Keymaps
   'ctrl-i': 'elixir-docs:finddoc'
 ```
 
+Configuration:
+
+For mac you need to set `elixirPath` and `erlangHome` under settings.
+
+Config example:
+
+```
+"elixir-docs":
+    elixirPath: "/usr/local/bin"
+    erlangHome: "/usr/local/bin"
+```
+
 #### Known issues
 * Does not resolve binding. E.g. you cant select a bound
   value and ask for docs. It needs the entire namespace.
@@ -21,5 +33,4 @@ Keymaps
     - The project needs to recompile to show latest docs
       this is not taken care of by this plugin.
 * on todo list: Smarter namespace selection from "carret" etc.
-* on todo list: Make sure it runs on Mac -x (totally not tested)
-  - Probably needs absolute path resolving to elixir iex commands
+
