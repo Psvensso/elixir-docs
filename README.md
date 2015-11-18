@@ -11,7 +11,7 @@ Keymaps
 ```javascript
 'atom-workspace':
   'ctrl-alt-o': 'elixir-docs:toggle'
-  'ctrl-alt-i': 'elixir-docs:finddoc'
+  'ctrl-i': 'elixir-docs:finddoc'
 ```
 
 #### Known issues
