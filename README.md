@@ -1,3 +1,8 @@
+# ** Deprecated **
+Plugin has been removed from APM. Please feel free to copy/fork and publish your own version on APM.
+
+Reason i think this plugin is stupid is for all the clutter on APM. All Elixir plugins have their own process and it just becomes a mess. This could so easily be consolidated into one plugin and i think someone with more time and investment in Elixir could take up the baton on this. :)
+
 # elixir-docs package
 Finds source code docs for a namespaces and outputs the parsed markdown docs in a tool panel.
 
